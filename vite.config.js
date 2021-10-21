@@ -49,23 +49,28 @@ export default defineConfig({
     },
     plugins: [
         vue(), 
+        mpa({
+        //     scanDir: 'src/pages',
+        //     scanFile: 'main.js',
+        }),
         htmlTemplate({
             pages: {
                 main: {
+                    template: 'public/index.html',
                     title: 'Hamonica Main',
                     entry: 'src/pages/main/main.js',
                 },
                 login: {
+                    template: 'public/index.html',
+
                     title: 'Hamonica Login',
                 },
                 cache: {
+                    template: 'public/index.html',
+
                     entry: 'src/pages/cache/main.js',
                     title: 'Hamonica Cache',
-                },
-                was: {
-                    entry: 'src/pages/was/was.js',
-                    title: 'Hamonica Was',
-                },
+                }
             }
         }),
         pages({
@@ -74,8 +79,7 @@ export default defineConfig({
             ],
             exclude: ["**/components/*.vue"],
         }),
-        mpa({
-        }),
+
         vueI18n({
             // if you want to use Vue I18n Legacy API, you need to set `compositionOnly: false`
             compositionOnly: true,

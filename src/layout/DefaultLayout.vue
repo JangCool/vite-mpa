@@ -4,7 +4,7 @@
 <!-- WRAPPER -->
 <div class="wrapper" >
     <slot>
-        <p>컨텐츠 입니다.</p>
+        <p>Content slot.</p>
     </slot>
 </div>
 <!--// WRAPPER -->
