@@ -1,5 +1,5 @@
 <template>
-  cache vue
+  index server
 </template>
 
 <script>

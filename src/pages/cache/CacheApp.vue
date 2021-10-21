@@ -1,13 +1,22 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
-<template>
-
+<template>ddcache {{ t('common.title') }} {{t}}
     <router-view></router-view>
 </template>
+
+
+<script>
+import { useI18n } from 'vue-i18n';
+
+export default {
+    setup(props) {
+        const { t, messages } = useI18n();
+
+console.log(messages)
+        return {
+            t
+        }
+    }
+}
+</script>
 
 <style>
 #app {
