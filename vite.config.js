@@ -35,11 +35,8 @@ export default defineConfig({
             drop_console: true,
         },
     },
-    //빌드 속도 향상.. 빌드 파일 압축 비활성화
     brotliSize: false,
     rollupOptions: {
-            //public에서 호출하는 static과 이름이 겹칠수 있기때문에
-            //static 하위에 apps라는 폴더를 만들어 어플리케이션과 직접 연관된 파일들을 따로 저장한다.
             output: {
                 assetFileNames: 'static/apps/css/[name].css',
                 chunkFileNames: 'static/apps/js/[name].js',
