@@ -2,6 +2,7 @@ import path from 'path';
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import htmlTemplate from 'vite-plugin-html-template'
 import pages from "vite-plugin-pages";
 import mpa from "vite-plugin-mpa";
 import vueI18n from '@intlify/vite-plugin-vue-i18n'
@@ -48,13 +49,33 @@ export default defineConfig({
     },
     plugins: [
         vue(), 
+        htmlTemplate({
+            pages: {
+                main: {
+                    title: 'Hamonica Main',
+                    entry: 'src/pages/main/main.js',
+                },
+                login: {
+                    title: 'Hamonica Login',
+                },
+                cache: {
+                    entry: 'src/pages/cache/main.js',
+                    title: 'Hamonica Cache',
+                },
+                was: {
+                    entry: 'src/pages/was/was.js',
+                    title: 'Hamonica Was',
+                },
+            }
+        }),
         pages({
             pagesDir: [
                 { dir: "src/pages/**/pages", baseRoute: "" }
             ],
             exclude: ["**/components/*.vue"],
         }),
-        mpa(),
+        mpa({
+        }),
         vueI18n({
             // if you want to use Vue I18n Legacy API, you need to set `compositionOnly: false`
             compositionOnly: true,

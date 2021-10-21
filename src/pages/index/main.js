@@ -1,7 +1,6 @@
-import { createApp } from 'vue'
-import { createHamonicaRouter } from '../../router';
+import { createHamonicaApp } from '@/pages/app.js'
 import App from './App.vue'
 
-const app = createApp(App);
-app.use(createHamonicaRouter())
-.mount('#app')
+
+//createApp을 createHamonicaApp 재정의 한다.
+createHamonicaApp({app: App})

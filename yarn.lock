@@ -2437,6 +2437,13 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
+vite-plugin-html-template@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/vite-plugin-html-template/-/vite-plugin-html-template-1.0.6.tgz#2e967a15b0fe1ba3fd3d63200b9e4fff533a36b1"
+  integrity sha512-d9xAa2g1WkKIcVCu+AMqCm0X+6ZINV3DKD8t4E7oEJfE+j+H+ucL+eN7Vd62wC2uKkG+X/StBrCIOV1WDaPdxg==
+  dependencies:
+    shelljs "0.8.4"
+
 vite-plugin-mpa@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/vite-plugin-mpa/-/vite-plugin-mpa-1.1.1.tgz#8fbb40e776c32dd99d87d3bc65ba91926f58f5a8"
