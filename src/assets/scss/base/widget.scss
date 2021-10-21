@@ -1,0 +1,72 @@
+.inbox-widget .inbox-item {
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+    padding: 0.625rem 0;
+    position: relative;
+}
+.inbox-widget .inbox-item:last-of-type {
+    border-bottom: none;
+}
+.inbox-widget .inbox-item .inbox-item-img {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    width: 40px;
+}
+.inbox-widget .inbox-item .inbox-item-img img {
+    width: 40px;
+}
+.inbox-widget .inbox-item .inbox-item-author {
+    color: #343a40;
+    display: block;
+    margin-bottom: 3px;
+}
+.inbox-widget .inbox-item .inbox-item-text {
+    color: #adb5bd;
+    display: block;
+    font-size: 0.8125rem;
+    margin: 0;
+}
+.inbox-widget .inbox-item .inbox-item-date {
+    color: #98a6ad;
+    font-size: 0.6875rem;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+.widget-icon{
+    color: #727cf5;
+    font-size: 20px;
+    background-color: rgba(114,124,245,.25);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.widget-flat {
+    position: relative;
+}
+
+.widget-charts {
+    min-height: 10px!important;
+}
+
+.widget-charts .chart-canvas {
+    margin: 0 auto;
+}
+.chart-canvas {
+    position: relative;
+    user-select: none;
+}
+
+.widget-charts .chart-canvas.wide {
+    margin: -16px;
+}
+
+.widget-charts h6.small {
+    font-weight: 400;
+}

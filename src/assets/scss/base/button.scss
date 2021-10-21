@@ -1,0 +1,67 @@
+.btn{
+    border-radius: 0.125rem;
+}
+
+.btn-cache,
+.btn-cache:link{
+    color:#fff;
+}
+
+.btn-cache:active,
+.btn-cache:hover,
+.btn-cache:visited{
+    background-color: #e63570;
+}
+
+.btn.btn-block{width:100%}
+
+.dot-btn-group{
+    position: relative;
+    font-size: 0.75rem;
+    color: #999;
+}
+.dot-btn-group .btn{
+    box-shadow: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+.dot-btn-group .btn.active .circle,
+.dot-btn-group .btn:hover .circle{
+    background-color: #fff;
+}
+
+.dot-btn-group .circle.primary-cache{
+    background-color: #3699ff;
+}
+
+.dot-btn-group .btn.active .circle.primary-cache,
+.dot-btn-group .btn:hover .circle.primary-cache{
+    border:2px solid #3699ff;
+}
+
+.dot-btn-group .circle.secondary-cache{
+    background-color: #fbbb09;
+}
+
+.dot-btn-group .btn .active .circle.secondary-cache,
+.dot-btn-group .btn:hover .circle.secondary-cache{
+    border:2px solid #fbbb09;
+}
+
+.dot-btn-group .circle.miss{
+    background-color: #ff4684;
+}
+.dot-btn-group .btn .active .circle.miss,
+.dot-btn-group .btn:hover .circle.miss{
+    border:2px solid #ff4684;
+}
+
+.dot-btn-group .circle ~ span{
+    padding-left:2px;
+}
+
+.btn-lg, .btn-group-lg > .btn{
+    height:46px;
+    font-size: 0.94rem;
+}

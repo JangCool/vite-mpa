@@ -1,0 +1,103 @@
+
+@import "../../../../node_modules/bootstrap/scss/functions";
+
+.badge-primary-lighten {
+    color:$primary;
+    background-color: $blue-100;
+}
+.badge-secondary-lighten {
+    color: $secondary;
+    background-color: rgba(108,117,125,.18);
+}
+.badge-success-lighten {
+    color: $success;
+    background-color: rgba(10,207,151,.18);
+}
+.badge-danger-lighten {
+    color: $danger;
+    background-color: rgba(250,92,124,.18);
+}
+.badge-warning-lighten {
+    color: $warning;
+    background-color: rgba(255,188,0,.18);
+}
+.badge-info-lighten {
+    color: $info;
+    background-color: rgba(57,175,209,.18);
+}
+.badge-light-lighten {
+    color: $light;
+    background-color: rgba(238,242,247,.18);
+}
+
+.badge-dark-lighten {
+    color: $dark;
+    background-color: rgba(49,58,70,.18);
+}
+.badge-int-lighten {
+    color: $int;
+    background-color:  $int-100;
+}
+.badge-was-lighten {
+    color: $was;
+    background-color:  $was-100;
+}
+.badge-cache-lighten {
+    color: $cache;
+    background-color:  $cache-100;
+}
+.badge-os-lighten {
+    color: $os;
+    background-color:  $os-100;
+}
+.badge-db-lighten {
+    color: $db;
+    background-color:  $db-100;
+}
+
+
+
+.badge-outline-primary {
+    color: #727cf5;
+    border: 1px solid #727cf5;
+    background-color: transparent;
+}
+
+.badge-outline-secondary {
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    background-color: transparent;
+}
+
+.badge-outline-success {
+    color: #0acf97;
+    border: 1px solid #0acf97;
+    background-color: transparent;
+}
+
+.badge-outline-danger {
+    color: #fa5c7c;
+    border: 1px solid #fa5c7c;
+    background-color: transparent;
+}
+
+.badge-outline-warning {
+    color: #ffbc00;
+    border: 1px solid #ffbc00;
+    background-color: transparent;
+}
+.badge-outline-info {
+    color: #39afd1;
+    border: 1px solid #39afd1;
+    background-color: transparent;
+}
+.badge-outline-light {
+    color: #eef2f7;
+    border: 1px solid #eef2f7;
+    background-color: transparent;
+}
+.badge-outline-dark {
+    color: #313a46;
+    border: 1px solid #313a46;
+    background-color: transparent;
+}

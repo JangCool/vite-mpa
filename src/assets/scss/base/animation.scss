@@ -1,0 +1,37 @@
+
+@keyframes drop-down-slide {
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    0% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+}
+
+
+
+@keyframes side-bar-slide {
+
+    from {
+        margin-left: -66px;
+    }
+
+    to {
+        margin-left:0;
+    }
+}
+
+
+@keyframes nav-fixed-side-bar-slide {
+
+    from {
+        margin-left: -66px;
+    }
+
+    to {
+        margin-left:-66px;
+    }
+}
+

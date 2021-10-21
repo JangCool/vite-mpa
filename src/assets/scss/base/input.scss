@@ -1,0 +1,81 @@
+.input-group-xs > .form-control,
+.input-group-xs > .form-select,
+.input-group-xs > .input-group-text,
+.input-group-xs > .btn {
+  padding: $input-padding-y-xs $input-padding-x-xs;
+  @include font-size($input-font-size-xs);
+  @include border-radius($input-border-radius-xs);
+}
+
+.input-group-xs > .form-select {
+  padding-right: $form-select-padding-x + $form-select-indicator-padding;
+}
+
+.input-group-prepend {
+    margin-right: -1px;
+}
+.input-group>.input-group-prepend>.btn, .input-group>.input-group-prepend>.input-group-text, .input-group>.input-group-append:not(:last-child)>.btn, .input-group>.input-group-append:not(:last-child)>.input-group-text, .input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle), .input-group>.input-group-append:last-child>.input-group-text:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-check-input-lg .form-check-input
+{
+    min-width: 1.25rem;
+    min-height: 1.25rem;
+    max-width: 1.25rem;
+    max-height: 1.25rem;
+}
+
+.form-check-input-lg .form-check-label{
+    line-height: 1.625rem;
+    padding-left: 5px;
+}
+
+.form-check-input:focus, .form-control:focus, .form-select:focus{
+  box-shadow: none;
+}
+
+.form-switch .form-check-input {
+  background-image: none;
+  background-position: 0;
+  border-radius: 2.5rem;
+  transition: background-color .25s ease,border-color .25s ease,background-position .15s ease-in-out,opacity .15s ease-out,box-shadow .15s ease-in-out;
+}
+
+.form-switch .form-check-input {
+  border:none;
+  position: relative;
+  background-color:#dadae2;
+  width: 1.9rem;
+  height: 0.88em;
+}
+
+.form-switch .form-check-input:checked{
+  background-color:#DFEBFF;
+}
+
+.form-switch .form-check-input:after {
+  transition: transform .25s ease-in-out,background-color .25s ease-in-out;
+  content: "";
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 50%;
+  position: absolute;
+  background-color:#F1F1F5;
+  transform: translateX(1px);
+  top: -2.5px;
+  left:-2px;
+}
+
+.form-switch .form-check-input{
+  background-image:none !important;
+}
+
+.form-switch .form-check-input:checked:after {
+  background-color :#0061ff;
+  transform: translateX(15px);
+}
+
+.form-check-inline{margin-right: 0;}
+.form-check-inline + .form-check-inline{margin-left: 1rem;}

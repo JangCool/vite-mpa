@@ -1,0 +1,203 @@
+$svg-icon-default-color:#858c9e;
+$svg-icon-default-hover-color:#fff;
+
+@function svgHamburger($color) {
+    $color: '#'+$color;
+    $icon: 'data:image/svg+xml,<svg viewBox="0 -53 384 384" xmlns="http://www.w3.org/2000/svg"><path d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/><path d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/><path d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/></svg>';
+    @return url($icon);
+  }
+
+   
+/* 아이콘 관리 2021-05-22 장진철 추가.*/
+.hi {
+	display: inline-block;
+	background-repeat: no-repeat; 
+	background-position: center center; 
+	background-size: contain;
+    width:1.5rem;
+	height:1.5rem;
+    vertical-align: sub;
+}
+
+
+.hi.xs {
+    min-width:1rem;
+    min-height:1rem;
+}
+
+.hi.sm {
+    min-width:1.25rem;
+    min-height:1.25rem;
+}
+
+.hi.lg {
+    min-width:3rem;
+    min-height:3rem;
+}
+
+.hi.his-hamburger-menu {
+    background: svgHamburger(1772f8) no-repeat;
+    // &:hover {
+    //   background: svgHamburger(03308f) no-repeat;
+    // }
+}
+
+.hi.his-app-int {
+    background: url('../svg/icon/app-int-solid.svg') no-repeat;
+}
+
+.hi.hir-app-int {
+    background: url('../svg/icon/app-int-regular.svg') no-repeat;
+}
+
+.hi.his-app-was {
+    background: url('../svg/icon/app-was-solid.svg') no-repeat;
+}
+
+.hi.hir-app-was {
+    background: url('../svg/icon/app-was-regular.svg') no-repeat;
+}
+
+.hi.his-app-cache {
+    background: url('../svg/icon/app-cache-solid.svg') no-repeat;
+}
+
+.hi.hir-app-cache {
+    background: url('../svg/icon/app-cache-regular.svg') no-repeat;
+}
+
+.hi.his-app-db {
+    background: url('../svg/icon/app-db-solid.svg') no-repeat;
+}
+
+.hi.hir-app-db {
+    background: url('../svg/icon/app-db-regular.svg') no-repeat;
+}
+
+.hi.his-app-os {
+    background: url('../svg/icon/app-os-solid.svg') no-repeat;
+}
+
+.hi.hir-app-os {
+    background: url('../svg/icon/app-os-regular.svg') no-repeat;
+}
+
+.hi.hir-dot-circles {
+    background: url('../svg/icon/dot-circles-regular.svg') no-repeat;
+}
+
+.hi.his-home {
+    background-color: $svg-icon-default-color;
+    mask: url('../svg/icon/home-solid.svg') no-repeat 50% 50%;
+    // &:hover {
+    //     background-color: $svg-icon-default-hover-color;
+    // }
+}
+
+
+.hi.his-dashboard-itf {
+    background: url('../svg/icon/dashboard-itf-solid.svg') no-repeat;
+}
+
+
+.hi.his-refresh {
+    background: url('../svg/icon/refresh-solid.svg') no-repeat;
+}
+
+.hi.his-bell {
+    background: url('../svg/icon/bell-solid.svg') no-repeat;
+}
+
+.hi.his-bells {
+    background: url('../svg/icon/bells-solid.svg') no-repeat;
+}
+
+.hi.his-bookmark {
+    background: url('../svg/icon/bookmark-solid.svg') no-repeat;
+}
+
+.hi.his-add-dashboard {
+    background: url('../svg/icon/add-dashboard-solid.svg') no-repeat;
+}
+
+.hi.his-thread-dump {
+    background: url('../svg/icon/thread-dump-solid.svg') no-repeat;
+}
+
+.hi.his-analysis-error{
+    background: url('../svg/icon/analysis-error-solid.svg') no-repeat;
+}
+
+.hi.his-analysis-app{
+    background: url('../svg/icon/anayisis-app-solid.svg') no-repeat;
+}
+
+.his-analysis-transaction{
+    background: url('../svg/icon/analysis-transaction-solid.svg') no-repeat;
+}
+
+.his-dashboards{
+    background: url('../svg/icon/dashboards-solid.svg') no-repeat;
+}
+
+.hi.his-theme {
+    background: url('../svg/icon/theme-solid.svg') no-repeat;
+}
+.hi.hic-theme {
+    background: url('../svg/icon/theme-color.svg') no-repeat;
+}
+
+.hi.his-language {
+    background: url('../svg/icon/language-solid.svg') no-repeat;
+}
+.hi.hic-language {
+    background: url('../svg/icon/language-color.svg') no-repeat;
+}
+
+.hi.his-account {
+    background: url('../svg/icon/account-solid.svg') no-repeat;
+}
+.hi.hic-account {
+    background: url('../svg/icon/account-color.svg') no-repeat;
+}
+
+.hi.his-setting {
+    background: url('../svg/icon/setting-solid.svg') no-repeat;
+}
+.hi.hic-setting {
+    background: url('../svg/icon/setting-color.svg') no-repeat;
+}
+
+.hi.his-logout {
+    background: url('../svg/icon/logout-solid.svg') no-repeat;
+}
+.hi.hic-logout {
+    background: url('../svg/icon/logout-color.svg') no-repeat;
+}
+
+.hi.his-bookmark-star {
+    background: url('../svg/icon/bookmark-star-solid.svg') no-repeat;
+}
+.hi.hic-bookmark-star {
+    background: url('../svg/icon/bookmark-star-color.svg') no-repeat;
+}
+
+.hi.his-card {
+    background: url('../svg/icon/card-solid.svg') no-repeat;
+}
+
+.hi.his-collapsed {
+    background: url('../svg/icon/collapsed-solid.svg') no-repeat;
+}
+
+.hi.his-list {
+    background: url('../svg/icon/list-solid.svg') no-repeat;
+}
+
+.hi.his-maximize {
+    background: url('../svg/icon/maximize-solid.svg') no-repeat;
+}
+
+.hi.his-minimize {
+    background: url('../svg/icon/minimize-solid.svg') no-repeat;
+}

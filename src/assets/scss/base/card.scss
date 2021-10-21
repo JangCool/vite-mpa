@@ -1,0 +1,231 @@
+.card {
+    margin-bottom: $card-spacer-y;
+}
+
+.card .header-title {
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-size: .9rem;
+    margin-top: 0;
+}
+
+.card .header-title.lg {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+// Box header
+.card-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border:none;
+    background-color: #fff;
+    padding: 0.938rem 1.25rem;/*15x 20px*/
+
+    .collapsed-card & {
+      border-bottom: 0;
+    }
+  
+    > .card-tools {
+        display: flex;
+        flex-shrink: 0;
+        margin:0;
+        height: 0;
+        float: right;
+      [data-toggle='tooltip'] {
+        position: relative;
+      }
+    }
+  }
+  
+.card-header .card-title{
+    display: flex;
+    flex-shrink: 0;
+    margin:0;
+    line-height: 1.25rem;
+}
+
+.card-header .card-title em{
+    margin-left: 5px;
+    font-size: 0.75rem;
+    color: #999;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.card-header .card-tools .btn{
+    padding: 0;
+    box-shadow: none;
+    padding-left: 5px;
+}
+
+.card-header .card-tools .btn-icon{
+    height: 24px !important;
+}
+
+.card-header .card-tools .btn-icon-sm{
+    height: 20px !important;
+}
+
+.card-header .card-tools .input-group{
+    margin-top: -3px;
+}
+
+.card-header .card-tools .btn-group, .btn-group-vertical{
+    margin-top: -2px;
+}
+
+.card-header .card-tools .btn-group .dropdown-menu {
+    min-width: 9rem;
+}
+
+.card-header .card-tools .btn-group .dropdown-menu .dropdown-item{
+    padding: 0.5rem 1rem;
+}
+
+.card-tools.beauty-fit .btn{
+    padding: 0;
+    box-shadow: none;
+    padding-left: 5px;
+}
+
+.card-header.beauty-fit .btn-icon{
+    height: 24px !important;
+}
+
+.card-header.beauty-fit .btn-icon-sm{
+    height: 20px !important;
+}
+
+.card-header.beauty-fit .input-group{
+    margin-top: -3px;
+}
+
+.card-header.beauty-fit .btn-group, .btn-group-vertical{
+    margin-top: -2px;
+}
+
+.card-header.beauty-fit .btn-group .dropdown-menu {
+    min-width: 9rem;
+}
+
+.card-header.beauty-fit .btn-group .dropdown-menu .dropdown-item{
+    padding: 0.5rem 1rem;
+}
+
+.card-header .card-tools .btn-group .dropdown-menu.dropdown-menu-animated{
+    // margin-top:30px !important;
+}
+
+.card-header.second-floor{
+    padding-top: 1.375rem;
+    padding-bottom: 0.938rem;
+}
+
+.card-header .title-wrap .card-subtitle{
+    padding-top: 1rem;
+    font-size: 0.813rem;
+    color: #999;
+    margin-bottom: 0;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 18.75rem;
+}
+
+.card-header .title-wrap .card-tools{
+    margin-top: 0;
+    height: auto;
+}
+
+.card-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.532rem   1.25rem;
+    overflow-x: auto;
+
+}
+
+.card-footer {
+    background-color: #fff;
+    padding: 0.938rem 1.25rem;
+}
+
+/* MAIN TITLE */
+.card.main-title{
+    padding:20px;
+    position:relative;
+    min-height:140px;
+    box-sizing:border-box;
+}
+.card.main-title.large{height:278px;}
+.card.main-title.was{background:#3699ff;}
+.card.main-title.cache{background:#fc2d82;}
+.card.main-title .side-line{border-left:4px solid #fff;padding-left:20px}
+.card.main-title .txt-title{display: flex;flex-direction: row; align-items: center;}
+.card.main-title .txt-title h5{margin-left:15px;font-size:15px;line-height:22px;color:#fff;}
+.card.main-title .txt-title p{margin-top:4px;font-size:13px;line-height:19px;color:#dcecff;}
+.card.main-title .bottom-button{position: absolute;left: 0;bottom: 0;width: calc(100% - 40px); padding: 15px 20px;text-align: center;}
+.card.main-title .count{display:block;content:'';width:80px;height:80px;position:absolute;right:5px;top:27%;color:#fff;font-size:42px}
+.card.main-title.cache:after{background-position:-80px 0;}
+.card.main-title.engine{height:186px;}
+.card.main-title .txt-grp.txt-grp-title{margin-bottom: 2px;display: inline-block;color:#fff;font-size:18px;}
+.card.main-title .txt-grp .emphasis{
+	padding: 22px 0;
+	font-size:20px
+}
+.card.main-title .txt-grp .normal{
+	padding: 1px 0;
+	font-size:13px;
+}
+.card.main-title .txt-grp .normal .small-count{
+	width: 30px;
+    display: inline-block;
+}
+.card.main-title .txt-grp h4{font-size:14px;line-height:22px;color:#fff;}
+.card.main-title .txt-grp .txt-grp-title {font-size:18px;line-height:22px;color:#fff;margin-top: 25px; display: inline-block;}
+.card.main-title .txt-grp p{margin-top:4px;font-size:14px;line-height:19px;color:#dcecff;}
+.card.main-title.cache .txt-grp p{color:#fff;}
+
+
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * 
+ * ※ 반응형 웹
+ *
+ * 반응형 스타일 정의.
+ * 디바이스별 레이아웃 재정의가 필요할때 스타일 작성.
+ * ----------------------------------------------------------------------------------------
+ */
+@include media-breakpoint-down(sm) {
+    .card-header .title-wrap .card-subtitle{
+        max-width: 7rem;
+    }
+}
+@include media-breakpoint-down(md) { 
+    .card-header .title-wrap .card-subtitle{
+        max-width: 7rem;
+    }
+}
+@include media-breakpoint-down(lg) {
+    .card-header .title-wrap .card-subtitle{
+        max-width: 7rem;
+    }
+}
+@include media-breakpoint-down(xl) { 
+    .card-header .title-wrap .card-subtitle{
+        max-width: 7rem;
+    }
+
+}
+@include media-breakpoint-down(xxl) { 
+    .card-header .title-wrap .card-subtitle{
+        max-width: 7rem;
+    }
+}
+

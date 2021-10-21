@@ -1,0 +1,212 @@
+/* poppins-regular - devanagari */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/poppins/poppins-v15-devanagari-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* poppins-italic - devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/poppins/poppins-v15-devanagari-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* poppins-500 - devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/poppins/poppins-v15-devanagari-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-500.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* poppins-500italic - devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/poppins/poppins-v15-devanagari-500italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-500italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-500italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* poppins-600 - devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/poppins/poppins-v15-devanagari-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-600.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* poppins-600italic - devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/poppins/poppins-v15-devanagari-600italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-600italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-600italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* poppins-700 - devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/poppins/poppins-v15-devanagari-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-700.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* poppins-700italic - devanagari */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/poppins/poppins-v15-devanagari-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-700italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins/poppins-v15-devanagari-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+
+  /* roboto-regular - cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto/roboto-v27-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto/roboto-v27-cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto/roboto-v27-cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* roboto-italic - cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto/roboto-v27-cyrillic-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto/roboto-v27-cyrillic-italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto/roboto-v27-cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* roboto-500 - cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/roboto/roboto-v27-cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto/roboto-v27-cyrillic-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto/roboto-v27-cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* roboto-500italic - cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/roboto/roboto-v27-cyrillic-500italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto/roboto-v27-cyrillic-500italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto/roboto-v27-cyrillic-500italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* roboto-700 - cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto/roboto-v27-cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto/roboto-v27-cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto/roboto-v27-cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  /* roboto-700italic - cyrillic */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto/roboto-v27-cyrillic-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto/roboto-v27-cyrillic-700italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto/roboto-v27-cyrillic-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+
+  /* WEB FONTS */
+@font-face {
+	font-family:'NanumGothic';
+	font-weight:400;
+	src:url("../fonts/nanumgothic/NanumGothic-Regular.woff2") format('woff2'),
+		url("../fonts/nanumgothic/NanumGothic-Regular.woff") format('woff'),
+		url("../fonts/nanumgothic/NanumGothic-Regular.ttf") format('truetype');
+}
+
+@font-face {
+	font-family:'NanumGothic';
+	font-weight:700;
+	src:url("../fonts/nanumgothic/NanumGothic-Bold.woff2") format('woff2'),
+		url("../fonts/nanumgothic/NanumGothic-Bold.woff") format('woff'),
+		url("../fonts/nanumgothic/NanumGothic-Bold.ttf") format('truetype');
+}
+
+@font-face {
+	font-family:'NanumGothic';
+	font-weight:800;
+	src:url("../fonts/nanumgothic/NanumGothic-ExtraBold.woff2") format('woff2'),
+		url("../fonts/nanumgothic/NanumGothic-ExtraBold.woff") format('woff'),
+		url("../fonts/nanumgothic/NanumGothic-ExtraBold.ttf") format('truetype');
+}
+
+/* noto-sans-kr-300 - korean */
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/notosanskr/noto-sans-kr-v13-korean-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/notosanskr/noto-sans-kr-v13-korean-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* noto-sans-kr-regular - korean */
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/notosanskr/noto-sans-kr-v13-korean-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/notosanskr/noto-sans-kr-v13-korean-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* noto-sans-kr-500 - korean */
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/notosanskr/noto-sans-kr-v13-korean-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/notosanskr/noto-sans-kr-v13-korean-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* noto-sans-kr-700 - korean */
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/notosanskr/noto-sans-kr-v13-korean-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/notosanskr/noto-sans-kr-v13-korean-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* noto-sans-kr-900 - korean */
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/notosanskr/noto-sans-kr-v13-korean-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/notosanskr/noto-sans-kr-v13-korean-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }

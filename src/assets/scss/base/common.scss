@@ -1,0 +1,225 @@
+@import "fonts";
+
+/* RESET CSS */
+html, body, #app{width:100%;height:100%;margin:0;padding:0;border:0;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;}
+/* sweetAlert2 사용시 레이아웃 높이가 변경 되는 문제 해결. */
+body.swal2-height-auto {
+  height: 100% !important
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, legend, img, button{margin:0;padding:0;font-family:'Poppins', 'NanumGothic', 'noto sans kr', '돋움', 'apple sd gothic neo', sans-serif;font-weight:400;font-size:13px;color:#191919;letter-spacing:0;}
+table{width:100%;max-width:none;table-layout:fixed;border-spacing:0;border-collapse:collapse;}
+form, fieldset, img{border:0;}
+address, caption, cite, code, dfn, em, th, var, i{font-weight:400;font-style:normal;font-weight:normal;}
+ol, ul, li{list-style:none;}
+h1, h2, h3, h4, h5, h6{font-size:100%;font-weight:400;color:#191919;}
+abbr, acronym{border:0;}
+hr{display:none;}
+a{display:block;font-family:inherit;text-decoration:none;color:#191919;}
+a:active{text-decoration:none;}
+a img{vertical-align:middle;}
+textarea{overflow:auto;box-sizing:border-box;width:100%;padding:15px;resize:none;border:1px solid #d3d3d3;color:#191919;}
+select{display:block;height:32px;padding:5px 24px 6px 8px;border:#d4d4d8 1px solid;font-family:'NotoSans', 'NanumGothic', 'NanumBarunGothic', 'Poppins', 'noto sans kr', '돋움', dotum, 'apple sd gothic neo', sans-serif;font-size:13px;line-height:24px;color:#191919;-webkit-background-clip:none;}
+input{vertical-align:middle;}
+button{display:block;overflow:visible;margin:0;padding:0;cursor:pointer;border:0;background:none;outline:none;}
+legend, caption{overflow:hidden;width:1px;height:0;font-size:0;line-height:0;}
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption, canvas, summary{display:block;}
+.ir{display:block;overflow:hidden !important;position:absolute !important;top:-1000em;left:0;z-index:-1;width:0 !important;height:0 !important;font-size:0 !important;line-height:0 !important;background:none !important;}
+body.stop_scroll{overflow-y:hidden;}
+body.no-scroll{overflow:hidden;}
+iframe{border:0;}
+.ellip{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+body *{scrollbar-width:thin;scrollbar-color:rgba(0,0,0,0.2) transparent;}
+body *::-webkit-scrollbar-button{background:none;width:0;height:0;}
+body *::-webkit-scrollbar{width:6px;height:6px;}
+body *::-webkit-scrollbar-track{background-color:transparent;}
+body *::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,0.2);}
+
+input[type=text], input[type=password], input[type=search], input[type=number]{display:inline-block;resize:none;border:1px solid #dbdbdb;-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+input[type=text]:disabled, input[type=password]:disabled, input[type=search]:disabled, input[type=number]:disabled{background:#f3f4f6;}
+input[type=radio], input[type=checkbox]{position:relative;top:-1px;}
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, input::-ms-clear, input::-webkit-search-cancel-button, input::-webkit-clear-button{display:none;margin:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+
+.safari table caption{display:none;}
+.safari .ir{visibility:hidden;position:absolute;z-index:-1;width:0;height:0;font-size:0;line-height:0;}
+.gecko.ff input[type=number]{-moz-appearance:textfield;}
+
+/**
+ * card header small 글자 크기().
+ * <h1><h2><h3><h4><h5><h6>은 기본 14px기준으로 4px씩 순서대로 증가 한다.
+ * 각 h테그의 중간값 크기를 재정의 하기위해 h번호-sm 클래스 추가.
+ */
+ 
+//32px, h1 크기 : 38px
+h1.h1-sm {
+    font-size: 2rem;
+}
+//28px, h2 크기 : 32px
+h2.h2-sm {
+    font-size: 1.75rem;
+}
+//24px, h3 크기 : 26px
+h3.h3-sm {
+    font-size: 1.5rem;
+}
+//20px, h4 크기 : 22px
+h4.h4-sm {
+    font-size: 1.25rem;
+}
+//16px, h5 크기 : 18px
+h5.h5-sm {
+    font-size: 1rem;
+}
+//12px, h5 크기 : 14px
+h6.h6-sm {
+    font-size: 0.75rem;
+}
+.px-3-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.noti {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    font-size: 8pt;
+    line-height: 17px;
+    color: #fff;
+    text-align: center;
+    background-color: #F92C2C;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+.no-caret .dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown .dropdown-toggle {
+    display: inline-flex;
+    align-items: center;
+}
+
+.dropdown-menu {
+    font-size: 0.875rem;
+}
+
+.dropdown-menu button > i.hi {
+    vertical-align: middle;
+}
+.dropdown-menu button > span {
+    vertical-align: middle;
+}
+
+.dropdown-menu button > i.hi ~ span {
+    padding-left: 10px;
+}
+
+.dropdown-menu-animated {
+    animation-name: drop-down-slide;
+    animation-duration: .3s;
+    // animation-fill-mode: both;
+    // position: absolute;
+    // margin: 0;
+    // z-index: 1000;
+}
+
+.btn-transparent-dark {
+    color: rgba(33, 40, 50, 0.5);
+    background-color: transparent;
+    /* border-color: transparent; */
+    color: rgba(33, 40, 50, 0.5) !important;
+}
+
+.btn-transparent-dark:hover {
+    color: rgba(33, 40, 50, 0.5);
+    background-color: rgba(33, 40, 50, 0.1);
+    border-color: transparent;
+}
+
+.shadow {
+    box-shadow: 2px 2px 6px rgba(217,217,217, 0.75) !important
+}
+
+.shadow-right-sm {
+    box-shadow: 2px 0 8px 0 rgba(217,217,217, 0.75) !important;
+}
+
+.shadow-right {
+    box-shadow: 0.15rem 0 1.75rem 0 rgba(217,217,217, 0.75) !important;
+}
+
+.shadow-right-lg {
+    box-shadow: 1rem 0 3rem 0 rgba(217,217,217, 0.75) !important;
+}
+
+.shadow-left-sm {
+    box-shadow: -0.125rem 0 0.25rem 0 rgba(217,217,217, 0.75) !important;
+}
+
+.shadow-left {
+    box-shadow: -0.15rem 0 1.75rem 0 rgba(217,217,217, 0.75) !important;
+}
+
+.shadow-left-lg {
+    box-shadow: -1rem 0 3rem 0 rgba(217,217,217, 0.75) !important;
+}
+
+
+/* divider LINE */
+.divider{
+    border: none;
+    overflow:hidden;
+    width: 100%;
+    border-top: 1px solid $border-color;
+}
+.divider.horizontal{
+    height:1px;
+    max-height:1px;
+}
+.divider.vertical{
+    width:1px;
+    height:28px;
+}
+.divider.horizontal.slim{
+    margin:10px 0
+}
+.divider.horizontal.normal{
+    margin:20px 0
+}
+.divider.slim{
+    margin:0 10px;
+}
+.divider.vertical.normal{
+    margin:0 20px;
+}
+
+.circle-group {
+    font-size: 0.75rem;
+    color: $font-content-color;
+}
+
+.circle-group.status-sm .circle {
+    margin: 0 1px;
+    width: 0.375rem;
+    height: 0.375rem;
+}
+
+.circle-group.status .circle {
+    margin: 0 2px;
+}
+
+.circle{
+    content: '';
+    display: inline-block;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0 5px;
+    font-size: 0.75rem;
+}
+
+.text-muted {
+    color: #babbbc !important;
+}

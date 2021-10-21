@@ -15,6 +15,10 @@ import util from '@/utils/util'
 
 import { createI18n } from 'vue-i18n'
 
+import '@/assets/scss/hamonica.scss';
+import 'bootstrap'
+
+
 
 /**
  * 각 page의 routes 설정 파일을 동적으로 지정한다.

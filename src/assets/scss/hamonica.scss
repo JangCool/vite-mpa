@@ -1,0 +1,338 @@
+/* Default variable overrides (재정의 파트) */
+// scss-docs-start gray-color-variables
+
+// scss-docs-start gray-color-variables
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+// scss-docs-end gray-color-variables
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+$grays: (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+)
+!default;
+// scss-docs-end gray-colors-map
+// fusv-enable
+
+// scss-docs-start color-variables
+$blue: #0061FF !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #c82333 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #00c0ef !default;
+// 추가 색상.
+$int: #721CBC !default;
+$was: #3493FF !default;
+$cache: #FF4684 !default;
+$os: #FBBB09 !default;
+$db: #4A5161 !default;
+// scss-docs-end color-variables
+
+$int-100: tint-color($int, 80%) !default;
+$int-200: tint-color($int, 60%) !default;
+$int-300: tint-color($int, 40%) !default;
+$int-400: tint-color($int, 20%) !default;
+$int-500: $int !default;
+$int-600: shade-color($int, 20%) !default;
+$int-700: shade-color($int, 40%) !default;
+$int-800: shade-color($int, 60%) !default;
+$int-900: shade-color($int, 80%) !default;
+
+$int: (
+    "int-100": $int-100,
+    "int-200": $int-200,
+    "int-300": $int-300,
+    "int-400": $int-400,
+    "int-500": $int-500,
+    "int-600": $int-600,
+    "int-700": $int-700,
+    "int-800": $int-800,
+    "int-900": $int-900
+)
+!default;
+
+$was-100: tint-color($was, 80%) !default;
+$was-200: tint-color($was, 60%) !default;
+$was-300: tint-color($was, 40%) !default;
+$was-400: tint-color($was, 20%) !default;
+$was-500: $was !default;
+$was-600: shade-color($was, 20%) !default;
+$was-700: shade-color($was, 40%) !default;
+$was-800: shade-color($was, 60%) !default;
+$was-900: shade-color($was, 80%) !default;
+
+$was: (
+    "was-100": $was-100,
+    "was-200": $was-200,
+    "was-300": $was-300,
+    "was-400": $was-400,
+    "was-500": $was-500,
+    "was-600": $was-600,
+    "was-700": $was-700,
+    "was-800": $was-800,
+    "was-900": $was-900
+)
+!default;
+
+$cache-100: tint-color($cache, 80%) !default;
+$cache-200: tint-color($cache, 60%) !default;
+$cache-300: tint-color($cache, 40%) !default;
+$cache-400: tint-color($cache, 20%) !default;
+$cache-500: $cache !default;
+$cache-600: shade-color($cache, 20%) !default;
+$cache-700: shade-color($cache, 40%) !default;
+$cache-800: shade-color($cache, 60%) !default;
+$cache-900: shade-color($cache, 80%) !default;
+
+$cache: (
+    "cache-100": $cache-100,
+    "cache-200": $cache-200,
+    "cache-300": $cache-300,
+    "cache-400": $cache-400,
+    "cache-500": $cache-500,
+    "cache-600": $cache-600,
+    "cache-700": $cache-700,
+    "cache-800": $cache-800,
+    "cache-900": $cache-900
+)
+!default;
+
+$os-100: tint-color($os, 80%) !default;
+$os-200: tint-color($os, 60%) !default;
+$os-300: tint-color($os, 40%) !default;
+$os-400: tint-color($os, 20%) !default;
+$os-500: $os !default;
+$os-600: shade-color($os, 20%) !default;
+$os-700: shade-color($os, 40%) !default;
+$os-800: shade-color($os, 60%) !default;
+$os-900: shade-color($os, 80%) !default;
+
+$os: (
+    "os-100": $os-100,
+    "os-200": $os-200,
+    "os-300": $os-300,
+    "os-400": $os-400,
+    "os-500": $os-500,
+    "os-600": $os-600,
+    "os-700": $os-700,
+    "os-800": $os-800,
+    "os-900": $os-900
+)
+!default;
+
+$db-100: tint-color($db, 80%) !default;
+$db-200: tint-color($db, 60%) !default;
+$db-300: tint-color($db, 40%) !default;
+$db-400: tint-color($db, 20%) !default;
+$db-500: $db !default;
+$db-600: shade-color($db, 20%) !default;
+$db-700: shade-color($db, 40%) !default;
+$db-800: shade-color($db, 60%) !default;
+$db-900: shade-color($db, 80%) !default;
+
+$db: (
+    "db-100": $db-100,
+    "db-200": $db-200,
+    "db-300": $db-300,
+    "db-400": $db-400,
+    "db-500": $db-500,
+    "db-600": $db-600,
+    "db-700": $db-700,
+    "db-800": $db-800,
+    "db-900": $db-900
+)
+!default;
+
+// scss-docs-start colors-map
+$colors: (
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "white": $white,
+    "gray": $gray-600,
+    "gray-dark": $gray-800,
+    "int": $int,
+    "was": $was,
+    "cache": $cache,
+    "os": $os,
+    "db": $db,
+)
+!default;
+// scss-docs-end colors-map
+
+// scss-docs-start theme-color-variables
+// --btn-gray: #dbdbdb;
+$primary: $blue !default;
+$secondary: #6c757d !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "int": $int,
+    "was": $was,
+    "cache": $cache,
+    "os": $os,
+    "db": $db,
+)
+!default;
+
+$font-content-color: #999;
+
+$font-size-base:0.875rem;
+
+//heading 크기 재정의
+$h1-font-size:                2.25rem;
+$h2-font-size:                2rem;
+$h3-font-size:                1.625rem;
+$h4-font-size:                1.375rem;
+$h5-font-size:                1.125rem;
+$h6-font-size:                $font-size-base;
+
+// scss-docs-start font-sizes
+$font-sizes: (
+    7: 0.875
+)
+!default;
+// scss-docs-end font-sizes
+
+//<main> 테그 안에 row, card 조합의 그리드 화면을 그릴경우 각 사이별 너비 지정.
+$grid-layout-spacer: 1.25rem;
+
+$grid-gutter-width:           $grid-layout-spacer !default;
+$card-spacer-y:               $grid-layout-spacer !default;
+
+
+//card-header 영역에 input 항목이 들어갈 경우가 있어서 xs사이즈 정의함.
+$input-padding-y-xs: 0.2rem !default;
+$input-padding-x-xs: 0.5rem !default;
+$input-font-size-xs: 0.688rem !default;
+$input-border-radius-xs: 2px;
+
+$border-color: #D8DFE8 !default;
+$card-border-color: $border-color !default;
+$dropdown-border-color: $border-color !default;
+
+// scss-docs-end theme-colors-map
+$font-family-sans-serif: "Noto Sans KR", Roboto, NanumGothic, Dotum !default;
+
+$breadcrumb-divider: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g transform="translate(-257 -149)"><path d="M-7816.988-21980.131l3,3-3,3" transform="translate(8079.987 22133.131)" fill="none" stroke="#999" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><rect width="14" height="14" transform="translate(257 149)" fill="none"/></g></svg>');;
+
+/* Required (부트스트랩 커스터마이즈 문서에서 가져옴) */
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+/* Required (부트스트랩 커스터마이즈 문서에서 가져옴) */
+@import "/node_modules/bootstrap/scss/bootstrap"; // 부트스트랩
+
+@import "./base/animation";
+@import "./base/avatar";
+@import "./base/common";
+@import "./base/bedges";
+@import "./base/button";
+@import "./base/card";
+@import "./base/icon";
+@import "./base/input";
+@import "./base/layout";
+@import "./base/widget";
+
+// 페이지별 ui 구성.
+@import "./app-choice.scss";
+
+
+
+
+// /**
+//  * ----------------------------------------------------------------------------------------
+//  * 
+//  * ※ 반응형 웹
+//  *
+//  * 반응형 스타일 정의.
+//  * 디바이스별 레이아웃 재정의가 필요할때 스타일 작성.
+//  * ----------------------------------------------------------------------------------------
+//  */
+@include media-breakpoint-down(sm) {
+
+    .breadcrumb {
+        width: auto !important;
+        display: inline-block;
+        vertical-align: text-bottom;
+        margin-left: -18px !important;
+    }
+
+    .breadcrumb li:not(:last-child) {
+        display: none;
+        width: 100%;
+    }
+}
+
+@include media-breakpoint-up(sm) { 
+    
+}
+
+@include media-breakpoint-down(lg) {
+
+    .breadcrumb {
+        width: auto !important;
+        display: inline-block;
+        vertical-align: text-bottom;
+        margin-left: -18px !important;
+    }
+
+    .breadcrumb li:not(:last-child) {
+        display: none;
+        width: 100%;
+    }
+}
+
+@include media-breakpoint-down(xl) { 
+
+}
+@include media-breakpoint-down(xxl) { 
+
+}
+
